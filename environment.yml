@@ -1,0 +1,13 @@
+name: stormtail          
+channels:
+  - conda-forge          # open source?
+  - nodefaults           # Gör så att Conda forge inte används --> ingen licens behövs
+dependencies:
+  - python=3.12    
+  - numpy                # Ligger under scipy, men lika bra, kan inte biblioteket men testar. 
+  - scipy                # optimering, genpareto 
+  - pandas               #  SMHI:s CSV, 
+  - matplotlib
+  - requests             # hämta från SMHI:s API
+  - jupyter
+  - pytest

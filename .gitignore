@@ -1,0 +1,10 @@
+# Python-skräp som skapas automatiskt när koden körs
+__pycache__/
+*.pyc
+
+# Jupyter och pytest gör egna mellanlagringsmappar
+.ipynb_checkpoints/
+.pytest_cache/
+
+# rådata hämtas med koden från SMHI, checkas inte in
+data/raw/
